@@ -1,93 +1,70 @@
-# Ollivander's Wand Shop 🪄
+# Getting Started with Create React App
 
-Welcome to **Ollivander's Wand Shop**!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In this project, you will create a website for Ollivander's shop.
+## Available Scripts
 
-- Fork and clone [this repository](https://github.com/JoinCODED/TASK-Routes-Wand-Shop)
-- Create a new `React App` using the command `npx create-react-app ollivars-wand-shop`
-- Install Bootstrap as a new dependency
+In the project directory, you can run:
 
-```shell
-$ npm install bootstrap
-```
+### `npm start`
 
-- Import Bootstrap in your `index.js`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```javascript
-import "bootstrap/dist/css/bootstrap.min.css";
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Create a data file called `wands.js`
-- In `wands.js` place the following data:
+### `npm test`
 
-```javascript
-const wands = [
-  {
-    core: "Phoenix Feather",
-    wood: "Holly",
-    length: 11,
-    slug: "phoenix-feather-holly-1",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/c/ca/HarryPotterWandNN8415.jpg/revision/latest?cb=20141208232731",
-  },
-  {
-    core: "Unicorn Hair",
-    wood: "Willow",
-    length: 14,
-    slug: "unicorn-hair-willow",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/6/62/RonWeasleyWandNN8413.jpg/revision/latest?cb=20141208232815",
-  },
-  {
-    core: "Phoenix Feather",
-    wood: "Yew",
-    length: 13.5,
-    slug: "phoenix-feather-yew-1",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/5/5a/LordVoldemortWandNN8403.jpg/revision/latest?cb=20141208232950",
-  },
-  {
-    core: "Unicorn Hair",
-    wood: "Cypress",
-    length: 10.25,
-    slug: "unicorn-hair-cypress-1",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Remus_Lupin_wand.png/revision/latest/scale-to-width-down/700?cb=20161126073935",
-  },
-  {
-    core: "Dragon heartstring",
-    wood: "Vine",
-    length: 10.75,
-    slug: "dragon-heartstring-vine-1",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/c/c6/HermioneGrangerWandNN8411.jpg/revision/latest?cb=20140602200406",
-  },
-  {
-    core: "Unicorn Hair",
-    wood: "Cherry",
-    length: "Unknown length",
-    slug: "unicorn-hair-cherry-1",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/f/f0/Neville%27s_wand.jpg/revision/latest?cb=20141209002728",
-  },
-  {
-    core: "Unicorn Hair",
-    wood: "Hawthorn",
-    length: 10,
-    slug: "unicorn-hair-hawthorn-1",
-    imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/3/39/DracoMalfoyWandNN8409.jpg/revision/latest?cb=20141208233016",
-  },
-];
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-export default wands;
-```
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Create a data file and copy and paste the array above.
-- Create a `List` component that maps through all the wands.
-- Every wand must be in its own `Card` component.
-- Make sure that you're sending your data through `props`. 
-- When clicking on a wand card it should take you to another page ( use routing) showing the details of the wand
-- use bootstrap in styling your project, you can check this documentation [here](https://react-bootstrap.github.io/getting-started/introduction)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
